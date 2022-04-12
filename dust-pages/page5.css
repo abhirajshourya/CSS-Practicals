@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* .mainContainer{
+    background-color:#c6d6ff;
+    border: 12px solid #0000ff82;
+    padding: 50px;
+    margin: auto;
+} */
+
+.container{
+    background-color:#c6d6ff;
+    border: 6px solid #5773f0;
+    padding: 32px;
+    margin: 2px;
+    text-align: right;
+}
+
+.items{
+    border: 3px solid rgb(109, 76, 255);
+    background-color: #54bbe42c;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+#fruits{
+    float: left;
+    width: 50%;
+}
+
+#computer{
+    float: right;
+    width: 50%;
+}
+
+#stationary{
+    clear: left;
+    width: 100%;
+}
+
+p, h3{
+    text-align: center;
+}

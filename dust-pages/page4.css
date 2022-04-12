@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color:#c6d6ff;
+    border: 12px solid #0000ff82;
+    padding: 50px;
+    margin: 34px;
+    /* padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px; */
+    /* padding: 10px 20px 30px 40px; top right bottom left */
+    width: 321px;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: rgb(36, 32, 32);
+}

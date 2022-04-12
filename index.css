@@ -1,0 +1,43 @@
+.blueHeading{
+    color: royalblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+p{
+    margin: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    line-height: 2em;
+    color: green;
+    border: 2px solid yellowgreen;
+    transition: all ease-in-out 0.25s;
+    
+}
+p:hover{
+    color: rgb(0, 0, 0);
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+    font-weight: bold;
+    
+}
+#mainParagraph{
+    color: red;
+}
+.redElement{
+    color: aquamarine;
+}
+.bgBlack{
+    background-color: black;
+}
+.bgYellowGreen{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,47 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    border: 2px solid red;
+    background-color: rgb(208, 255, 137);
+    padding: 32px;
+    margin: 32px auto;
+    width: 666px;
+
+}
+
+.btn{
+    background-color: red;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.btn:active{
+    color: rgb(238, 255, 0);
+    background-color: rgb(0, 217, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+a:visited{
+    color: yellow;
+    background-color: maroon;
+}
+a:active{
+    color: blue;
+    background-color: white;
+}

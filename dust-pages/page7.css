@@ -1,0 +1,44 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(71, 197, 255);
+    border-radius: 30px;
+}
+
+
+
+.navbar input{
+    border: 2px solid rgb(21, 149, 253);
+    border-radius: 30px;
+    padding: 3px;
+    width: 400px;
+    margin: 8px;
+    margin-right: 20px;
+    float: right;
+    text-align: center;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+    margin: 8px;
+}
+
+.navbar li a:hover{
+    color: white;
+}
+
+.navbar a{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(72, 12, 141);
+    font-weight: bold;
+    margin: 12px;
+}

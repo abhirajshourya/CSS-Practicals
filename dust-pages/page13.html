@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Selectors</title>
+    <style>
+        
+        h1{
+            background-color: azure;
+            color: cornflowerblue;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /*Direct Selector*/
+        div > p{
+            color: yellowgreen;
+            background-color: green;
+            font-weight: bold;
+        }
+
+        /*Sibling Selector*/
+        div + p{
+            color: tomato;
+            background-color: gold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>More on CSS Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><p>Inner Paragraph</p></li>
+            </ul>
+            <p>Next Inner Paragraph</p>
+        </div>
+        <p>Midmost Paragraph</p>
+    </div>
+    <p>Outermost Paragraph</p>
+    <a href="../index.html" class="btn">Read More!</a>
+</body>
+</html>

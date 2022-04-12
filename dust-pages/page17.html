@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables & Custom Properties</title>
+    <style>
+        body {
+            font-family: Ubuntu;
+        }
+
+        :root {
+            --text-color: rgb(3, 87, 0);
+            /*Global Variable*/
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            --box-color: yellowgreen;
+            /*Local Variable*/
+            width: 200px;
+            height: 200px;
+            background-color: var(--box-color);
+            border: 4px solid green;
+            box-shadow: 4px 4px 5px var(--box-color);
+            margin: 20px;
+        }
+
+        .box h4 {
+            color: var(--text-color);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, illum.</h4>
+        </div>
+        <div class="box">
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, illum.</h4>
+        </div>
+        <div class="box">
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, illum.
+                <a href="../index.html" class="btn">Read More!</a>
+            </h4>
+
+        </div>
+    </div>
+</body>
+
+</html>
